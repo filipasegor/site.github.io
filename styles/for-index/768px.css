@@ -1,0 +1,283 @@
+
+
+
+@media (min-width: 768px){
+
+
+  nav {
+    background-color: #2B2B2B;
+    height: 100%;
+    position: fixed;
+    width: 95px;
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+
+  .main-content{
+    padding-left: 120px;
+  }
+
+  .main-paragraph {
+
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 130px;
+    margin-bottom: 200px;
+  }
+
+  .menu-heading {
+    margin-top: 150px;
+    font-size: 35px;
+    letter-spacing: 1.54px;
+  }
+
+  .logo{
+    /* margin-top: 72px; */
+    width: 108px;
+    transform: rotate(0deg);
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+  }
+
+
+  p,h2, .main-paragraph{
+    max-width: 500px;
+
+  }
+
+
+  h2 {
+    margin: 0px 0px;
+    font-size: 25px;
+  }
+
+  p {
+    margin: 7px 0px;
+    font-size: 17px;
+    line-height: 27px;
+    max-width: 450px;
+  }
+
+
+  .hey{
+    width: 105%;
+    height: 27vw;
+
+  }
+
+  .hey img{
+    left: 20%;
+    width: 80%;
+    position: absolute;
+  }
+
+  .capabilities {
+    margin-bottom: 100px;
+
+  }
+
+
+  /* .do {
+    position: absolute;
+    top: 450px;
+    right: 130px;
+    transform: rotate(-70deg);
+    color: #FF643A;
+    font-family: "Circe-Light", monospace;
+    font-size: 130px;
+  }
+
+  .do-on-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    width: 100%;
+    padding: 20px 90px 20px 30px;
+    color: #FFFFFF;
+    background-color: #FF643A;
+    font-family: "OCRF-Regular", monospace;
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+  .do:hover .do-on-hover {
+    display: block;
+  }
+
+  .can {
+    position: absolute;
+    top: 740px;
+    right: 600px;
+    transform: rotate(10deg);
+    color: #4E64FF;
+    font-family: "Circe-Light", sans-serif;
+    font-size: 130px;
+  }
+
+  .can-on-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    width: 110%;
+    padding: 10px 5px 15px 12px;
+    color: #FFFFFF;
+    background-color: #3C54FF;
+    font-family: "OCRF-Regular", monospace;
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+  .can:hover .can-on-hover {
+    display: block;
+  } */
+
+  .me {
+    width: 40vw;
+    padding-left: 5vw;
+  }
+
+  .is-philosophy {
+    margin-bottom: 150px;
+  }
+
+  .is-call-and-write {
+    margin-top: 150px;
+    padding-top: 80px;
+    padding-bottom: 130px;
+
+
+  }
+
+  /*
+  .feel-free{
+
+    margin-top: 150px;
+    padding-left: 300px;
+    background-color: #FFD4C3;
+    width: 1440px;
+
+
+  }
+
+  .feel-free img{
+    width: 1032px;
+
+
+  } */
+
+
+
+
+  .logo{
+    /* margin-top: 72px; */
+    width: 80px;
+  }
+
+
+
+
+  .first-column, .second-column {
+
+    font-size: 17px;
+  }
+
+  .third-column {
+
+    font-size: 25px;
+  }
+
+  .third-column a {
+
+  }
+
+
+  .third-column li {
+    transform: rotate(90deg);
+  }
+
+  .footer ul{
+    display: flex;
+    font-size: 14px;
+    padding-left: 39px;
+    padding-bottom: 100px;
+
+  }
+
+  .footer li:last-child{
+    padding: 0px 0px 0px 30px;
+
+  }
+
+  .footer li:last-child{
+    padding: 0px 0px 0px 30px;
+
+  }
+
+
+
+  .contacts-container {
+
+    background-color: #FFD45E;
+    display: flex;
+    padding: 38px 63px 140px 40px;
+    width: 563px;
+    justify-content: space-between;
+    display: flex;
+    line-height: 3;
+    transform: rotate(-78deg);
+    position: fixed;
+    /* top: 33%; */
+    /* left: 53%; */
+    right: -212px;
+    bottom: 67px;
+    animation: bounce 1s ease-in-out;
+    animation-iteration-count: 1;
+    animation-delay: 0.8s;
+  }
+
+  @-webkit-keyframes bounce {
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0) rotate(-78deg);
+
+
+    }
+
+    40%,
+    43% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -60px, 0);
+      transform: translate3d(0, -60px, 0) rotate(-78deg);
+
+    }
+
+     70% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0) rotate(-78deg);
+
+    }
+
+    90% {
+      -webkit-transform: translate3d(0, -10px, 0);
+      transform: translate3d(0, -10px, 0) rotate(-78deg);
+
+
+    }
+  }
+
+
+
+}

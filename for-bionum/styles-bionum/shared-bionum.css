@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.menu-heading {
+  transform: rotate(270deg);
+  color: #000000;
+  font-family: "BergenMono-Bold", monospace;
+  white-space: pre;
+  text-decoration: none;
+}
+
+.menu a{
+  text-decoration: none;
+}
+
+.project-name h1{
+  font-family: "BergenMono-SemiBold",monospace;
+}
+
+.project-name p{
+  font-family: "BergenMono-Regular",monospace;
+}
+
+.project-name-discription p{
+  font-family: "Circe-Light",sans-serif;
+}
+
+.graphik-discription h2{
+  font-family: "Circe-Light",sans-serif;
+}
+
+.graphik-discription p{
+  font-family: "Circe-Light",sans-serif;
+}
+
+.main-page-discription h2{
+  font-family: "Circe-Light",sans-serif;
+}
+
+.main-page-discription p{
+  font-family: "Circe-Light",sans-serif;
+}
+
+.articles-discription h2{
+  font-family: "Circe-Light",sans-serif;
+}
+
+.articles-discription p{
+  font-family: "Circe-Light",sans-serif;
+}
+
+.footer ul{
+  font-family: "BergenMono-Regular",monospace;
+}

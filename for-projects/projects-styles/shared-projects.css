@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #2B2B2B;
+
+}
+
+
+.menu-heading {
+  transform: rotate(270deg);
+  color: #000000;
+  font-family: "BergenMono-Bold", monospace;
+  white-space: pre;
+
+}
+
+
+.projects-heading {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.projects-heading h1{
+  font-family: "BergenMono-Bold", monospace;
+  color: #FFFFFF;
+
+
+}
+
+.projects-heading ul{
+  display: flex;
+  font-family: "BergenMono-Bold", monospace;
+  color: #FFFFFF;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+ h2{
+  font-family: "BergenMono-Regular", monospace;
+  color: #FFFFFF;
+
+}
+
+article  p{
+  font-family: "Circe-Light", sans-serif;
+  color: #FFFFFF;
+
+}
+
+.footer ul{
+  font-family: "BergenMono-Regular", monospace;
+  color: #FFFFFF;
+
+}
+
+.footer li{
+  text-decoration: underline;
+}

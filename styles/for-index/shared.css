@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #FBF2E6;
+}
+
+
+
+.menu-heading {
+  transform: rotate(270deg);
+  color: #FFFFFF;
+  font-family: "BergenMono-Bold", monospace;
+  letter-spacing: 1.54px;
+  white-space: pre;
+
+}
+/* .do{
+  border-bottom: 5px solid #FF643A;
+} */
+
+.logo {
+  margin-top: 72px;
+}
+
+h1 {
+  font-family: "Circe-Light", sans-serif;
+
+}
+
+h2 {
+  font-family: "BergenMono-Bold", monospace;
+}
+
+p {
+  font-family: "Circe-Light", sans-serif;
+}
+
+.first-column, .second-column {
+  font-family: "BergenMono-Regular", monospace;
+
+}
+
+.third-column {
+  font-family: "BergenMono-Bold", monospace;
+
+}
+
+.third-column a {
+  font-family: "BergenMono-Bold", monospace;
+}
+
+
+.third-column li {
+  transform: rotate(90deg);
+}
+
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #773FDD;
+}
+
+
+
+.third-column li:last-child{
+  opacity: 0.5;
+
+}
+
+
+.footer ul{
+  font-family: "BergenMono-Regular", monospace;
+
+}
+
+.footer li{
+  text-decoration: underline;
+}

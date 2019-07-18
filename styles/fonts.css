@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Circe-Light';
+  src: local('Circe-Light'),
+       url(../fonts/Circe-Light.otf) format('opentype'),
+       url(../fonts/Circe-Light.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OCRF-BoldOSFC';
+  src: local('OCRF-BoldOSFC'),
+       url(../fonts/OCRF-BoldOSFC.otf) format('opentype'),
+       url(../fonts/OCRF-BoldOSFC.woff2) format('woff2'),
+       url(../fonts/OCRF-BoldOSFC.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OCRF-RegularOSFC';
+  src: local('OCRF-RegularOSFC'),
+       url(../fonts/OCRF-RegularOSFC.otf) format('opentype'),
+       url(../fonts/OCRF-RegularOSFC.woff2) format('woff2'),
+       url(../fonts/OCRF-RegularOSFC.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OCRF-LightOSFC';
+  src: local('OCRF-LightOSFC'),
+       url('../fonts/OCRF-LightOSFC.otf') format('opentype'),
+       url('../fonts/OCRF-LightOSFC.woff2') format('woff2'),
+       url('../fonts/OCRF-LightOSFC.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BergenMono-Regular';
+  src: local('BergenMono-Regular'),
+       url(../fonts/BergenMono-Regular.otf) format('opentype'),
+       url(../fonts/BergenMono-Regular.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BergenMono-Bold';
+  src: local('BergenMono-Bold'),
+       url(../fonts/BergenMono-Bold.otf) format('opentype'),
+       url(../fonts/BergenMono-Bold.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'BergenMono-SemiBold';
+  src: local('BergenMono-SemiBold'),
+       url(../fonts/BergenMono-SemiBold.otf) format('opentype'),
+       url(../fonts/BergenMono-SemiBold.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
